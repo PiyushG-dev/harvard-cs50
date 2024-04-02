@@ -4,11 +4,9 @@
 #include "cs50.h"
 
 int main (void){
-    int i = 3;
-
-    while(i>0){
+    for(int i = 0; i < 3; i ++){
         printf("meow\n");
-        i--;
     }
+   
 }
 
