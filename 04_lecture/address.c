@@ -3,6 +3,7 @@
 
 int main(void){
    char *s = "hey!";
-   printf("%p\n",s);
-   printf("%p\n",&s[0]);
+   printf("%s\n", s);
+   printf("%s\n", s+1);
+   printf("%s\n", s+2);
 }
